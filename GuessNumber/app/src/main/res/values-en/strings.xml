@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guess number!</string>
+    <string name="behind">Undershoot!</string>
+    <string name="ahead">Aftershoot!</string>
+    <string name="hit">Hit!</string>
+    <string name="input_value">Enter values</string>
+    <string name="play_more">Try again</string>
+    <string name="try_to_guess">Try to guess a number (1 &#8211; 100)</string>
+    <string name="error">Invalid input!</string>
+    <string name="empty">Entered empty string!</string>
+    <string name="out_range">Number doesnt exist in interval 1 &#8211; 100!</string>
+    <string name="hint">Enter a number, e.g. 90 etc.</string>
+    <string name="makeEpilept">Unusual mode!</string>
+    <string name="preventEpilept">Normal mode!</string>
+    <string name="start">Start #</string>
+    <string name="idNumber">Unique identifier #</string>
+    <string name="tryNumber">Number of tries: </string>
+</resources>

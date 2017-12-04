@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Угадай число!</string>
+    <string name="behind">Недолет!</string>
+    <string name="ahead">Перелет!</string>
+    <string name="hit">В точку!</string>
+    <string name="input_value">Ввести значение</string>
+    <string name="play_more">Сыграть еще</string>
+    <string name="try_to_guess">Попробуйте угадать число (1 &#8211; 100)</string>
+    <string name="error">Неверный ввод!</string>
+    <string name="empty">Введена пустая строка!</string>
+    <string name="out_range">Число не находится в промежутке 1 &#8211; 100!</string>
+    <string name="hint">Введите число, например, 90 и т.д.</string>
+    <string name="makeEpilept">Необычный мод!</string>
+    <string name="preventEpilept">Обычный мод!</string>
+    <string name="start">Запуск №</string>
+    <string name="idNumber">Уникальный идентификатор №</string>
+    <string name="tryNumber">Число попыток: </string>
+    <string name="startKey">startNumber</string>
+    <string name="idKey">ID</string>
+    <string name="tryKey">tryNumber</string>
+</resources>

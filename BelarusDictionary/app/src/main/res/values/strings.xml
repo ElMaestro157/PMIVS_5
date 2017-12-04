@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BelarusDictionary</string>
+    <string name="all">All regions</string>
+    <string name="Minsk">Minsk</string>
+    <string name="minskaya">Minskaya voblasts</string>
+    <string name="brestskaya">Brestskaya voblasts</string>
+    <string name="grodnenskaya">Grodnenskaya voblasts</string>
+    <string name="vitebskaya">Vitebskaya voblasts</string>
+    <string name="gomelskaya">Gomelskaya voblasts</string>
+    <string name="mogilevskaya">Mogilevskaya voblasts</string>
+    <string name="sum">Summing population</string>
+    <string name="min">Find minimum population</string>
+    <string name="max">Find maximum population</string>
+    <string name="count">Count districts</string>
+    <string name="sortName">Sort by name</string>
+    <string name="sortPopularity">Sort by popularity</string>
+    <string name="sortRegion">Sort by region</string>
+    <string name="decide">Decide</string>
+</resources>

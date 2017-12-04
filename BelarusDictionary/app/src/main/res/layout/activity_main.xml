@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dmitry.belarusdictionary.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/checkboxesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/resultText"
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/regionLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/allCheckbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/all" />
+
+                    <CheckBox
+                        android:id="@+id/MinskCheckbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Minsk"
+                        tools:layout_editor_absoluteX="177dp"
+                        tools:layout_editor_absoluteY="274dp" />
+
+                    <CheckBox
+                        android:id="@+id/minskayaCheckbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/minskaya"
+                        tools:layout_editor_absoluteX="110dp"
+                        tools:layout_editor_absoluteY="262dp" />
+
+                    <CheckBox
+                        android:id="@+id/brestskayaCheckbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/brestskaya"
+                        tools:layout_editor_absoluteX="116dp"
+                        tools:layout_editor_absoluteY="206dp" />
+
+                    <CheckBox
+                        android:id="@+id/grodnenskayaCheckbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/grodnenskaya"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        tools:layout_editor_absoluteY="366dp" />
+
+                    <CheckBox
+                        android:id="@+id/vitebskayaCheckbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vitebskaya"
+                        tools:layout_editor_absoluteX="57dp"
+                        tools:layout_editor_absoluteY="318dp" />
+
+                    <CheckBox
+                        android:id="@+id/gomelskayaCheckbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gomelskaya"
+                        tools:layout_editor_absoluteX="43dp"
+                        tools:layout_editor_absoluteY="222dp" />
+
+                    <CheckBox
+                        android:id="@+id/mogilevskayaCheckbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mogilevskaya" />
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/funcRadio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/sumRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/sum" />
+
+                    <RadioButton
+                        android:id="@+id/minRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/min" />
+
+                    <RadioButton
+                        android:id="@+id/maxRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/max" />
+
+                    <RadioButton
+                        android:id="@+id/countRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/count" />
+
+                    <RadioButton
+                        android:id="@+id/sortNameRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/sortName" />
+
+                    <RadioButton
+                        android:id="@+id/sortPopularityRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/sortPopularity" />
+
+                    <RadioButton
+                        android:id="@+id/sortRegionRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/sortRegion" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/decideButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text="@string/decide" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
